@@ -1,0 +1,10 @@
+This code is aiming to split PDF file (chunk simply by the number of characters), and uses hybrid retrieval (BM25 + FAISS)
+
+You only need to config your **HuggingFace Token**, then can run it smoothly.
+
+File Intro:<br>
+`test-pdf2.pdf` is the splitted and retrieved PDF. Also you can use your own PDF file.<br>
+`retrieved_text_chunks.txt` is the output file of this code, recording all splitted chunks.
+
+
+
